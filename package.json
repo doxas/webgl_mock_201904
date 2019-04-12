@@ -1,0 +1,30 @@
+{
+  "name": "webgl_mock_201904",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/script.js",
+  "scripts": {
+    "debug": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doxas/webgl_mock_201904.git"
+  },
+  "keywords": [],
+  "author": "doxas",
+  "bugs": {
+    "url": "https://github.com/doxas/webgl_mock_201904/issues"
+  },
+  "homepage": "https://github.com/doxas/webgl_mock_201904#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "babel-loader": "^8.0.5",
+    "raw-loader": "^2.0.0",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
